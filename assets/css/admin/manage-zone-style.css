@@ -1,0 +1,97 @@
+.content-main .manage-zone {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+    .content-main .manage-zone h1.title {
+        padding: 10px 0;
+        font-size: 3.1rem;
+        font-weight: 700;
+        color: #0000ff;
+    }
+    .content-main .manage-zone .table-manage {
+        width: 100%;
+        padding-bottom: 200px;
+    }
+        .content-main .manage-zone .table-manage h4.total-record{
+            padding: 0 0 17px 0;
+            font-size: 1.9rem;
+            color: #ff0000;
+        }
+        .content-main .manage-zone .table-manage .table-container {
+            width: 100%;
+            overflow: auto;
+        }
+        .content-main .manage-zone .table-manage .add-record {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 7px;
+        }
+        .content-main .manage-zone .table-manage .add-record button {
+            font-size: 2rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        table {
+            margin-top: 20px;
+            table-layout: fixed;
+            width: 100%;
+            min-width: 837px;
+            /* overflow-x: scroll; */
+        }
+        thead {
+            background-color: #000;
+            color: #fff;
+        }
+        th {
+            padding-right: 0.4% !important;
+            padding-left: 0.4% !important;
+            background-color: #ffff94 !important;
+            color: #000;
+        }
+        td, th {
+            border: 1px solid rgb(199, 199, 199);
+            vertical-align: middle;
+            font-size: 1.7rem !important;
+            text-align: center; 
+            /* white-space: nowrap; */
+            overflow: hidden;
+            /* min-width: fit-content; */
+        }
+        td {
+            padding: 2px 2px;
+            /* word-break: break-all; */
+        }
+        td.wrap-text {
+            word-break: break-all;
+        }
+        td.td-padding {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        td.img .wrapper {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto !important;
+        }
+            td.img .wrapper img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+                td.ctrl .btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 7px;
+                    border: none;
+                    outline: none;
+                } 
+                    td.ctrl .btn button{
+                        flex-shrink: 0;
+                        font-size: 1.8rem;
+                        padding: 7px;
+                        color: #000;
+                    }

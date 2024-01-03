@@ -1,0 +1,62 @@
+div.header-slider-wrap {
+    display: none !important; 
+} 
+.content-wrapper {
+    padding-top: 8px;
+}
+.content-main {
+    padding-bottom: 200px;
+    background-color: #ffffff !important;
+}
+h1 {
+    padding: 10px 2%;
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+    color: #ff0000;
+}
+.customer-info-zone, .pay-method-zone, .grab-method-zone {
+    width: 100%;
+    padding: 7px 3%;
+}
+.info-properties {
+    padding-bottom: 10px;
+}
+    .info-properties span {
+        font-size: 1.9rem;
+        word-spacing: 2px;
+    }
+
+select.form-select {
+    height: 120px !important;
+}
+    select.form-select option {
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+
+h3.total-price {
+    font-size: 2.5rem;
+    padding-left: 3%;
+    margin: 10px 0 !important;
+}
+
+.complete-pay-zone {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+    .complete-pay-zone button.pay-action {
+        padding: 0 !important;
+    }
+        .complete-pay-zone button.pay-action a {
+            display: block;
+            font-size: 2rem;
+            padding: 7px 25px;
+            color: #ffffff;
+            white-space: nowrap;
+            text-decoration: none;
+        }

@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0 !important;
+}
+body {
+    width: 100%;
+    height: auto;
+    
+    background-color: #181818;
+    background-image: linear-gradient(144deg, rgba(230,255,17,1) 0%, rgba(182,148,233,1) 100%);
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.register-wrapper {
+    margin-top: 2% !important;
+    margin-bottom: 8% !important; 
+    width: 100%;
+    height: auto;
+    min-width: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.register-container {
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-bottom: 30px;
+    animation: appearForm 1s cubic-bezier(.48,.55,.45,1.21) forwards;
+    position: relative;
+}
+@keyframes appearForm {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.register-title, .register-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.register-title h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 26px auto !important;
+}
+.register-form form {
+    width: 80%;
+}
+.field input {
+    background-color: #e7e7e7;
+    border: none;
+    display: block;
+    font-size: 1.7rem;
+    outline: none;
+    padding: 7px 20px;
+    width: 100%;
+    border-radius: 25px;
+    line-height: initial;
+}
+.field-pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+    .field-pass span.eye {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 6%;
+    }
+        .field-pass span.eye i {
+            font-size: 1.9rem;
+        }
+        .field-pass span.eye i:hover {
+            cursor: pointer;
+        }
+
+    .field.field-avatar {
+        margin-top: 0px !important;
+        white-space: nowrap;
+    }
+        .field.field-avatar span {
+            font-size: 1.7rem;
+            padding: 0 3% 0 5%;
+            font-weight: 600;
+        }
+        .field.field-avatar label {
+            font-size: 1.6rem;
+            border-radius: 8px;
+            padding: 5px 10px;
+            background-color: #e0e0e0;
+            white-space: nowrap;
+        }
+        .field.field-avatar label.hidden {
+            display: none;
+        }
+        .field.field-avatar input {
+            background-color: #fff;
+            border: none;
+            display: block;
+            font-size: 1.6rem;
+            outline: none;
+            padding: 12px 20px;
+            width: 100%;
+        }
+        .field.field-avatar label:hover {
+            background-color: #b6b6b6;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+
+p {
+    font-size: 1.5rem;
+    color: #ff0000c7 !important;
+    padding: 0px 5% !important;
+    height: 26px;
+}
+
+button[type="submit"] {
+    background-color: #91EDE6;
+    border: none;
+    display: block;
+    font-size: 1.8rem;
+    outline: none;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #020202;
+    font-weight: 700;
+    margin-top: 5px !important;
+}
+    button[type="submit"]:hover {
+        background-color: #00c1ce;
+        cursor: pointer;
+    }
+
+.field.field-avatar div.wrap-avatar {
+    --size-avt-preview: 90px;
+    width: var(--size-avt-preview);
+    height: var(--size-avt-preview);
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #b2b2b2;
+    margin-top: 5px !important;
+    margin-left: 5% !important;
+}
+    .field.field-avatar div.wrap-avatar a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+        .field.field-avatar div.wrap-avatar img.account-avt {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+            color: black;
+            pointer-events: none;
+            background-color: #13dbe9;
+            opacity: 1;
+        }
+            button.btn div.loader {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 20.8px;
+                position: relative;
+            }
+                button.btn div.loader span.ring {
+                    display: block;
+                    --size-of-ring: 28px;
+                    width: var(--size-of-ring);
+                    height: var(--size-of-ring);
+                    border-radius: 50%;
+                    border-width: 2.5px;
+                    border-style: solid;
+                    border-color: #000 #c0c0c0 #c0c0c0;
+                    animation: loader .5s linear infinite;
+
+                    position: absolute;
+                }
+                @keyframes loader {
+                    0% {
+                        transform: rotate(0deg);
+                    }100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            button.btn div.name-btn.hidden,
+            button.btn div.loader.hidden {
+                display: none;
+            }

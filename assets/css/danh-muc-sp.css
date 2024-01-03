@@ -1,0 +1,71 @@
+.danhMuc-sp{
+    width: 240px;
+    height: auto;
+}
+
+/* Phần css cho tiêu đề điện thoại và phụ kiện */
+    .dien-thoai, .phu-kien {
+        width: 100%;
+    }
+        .dien-thoai .title,
+        .phu-kien .title {
+            padding: 10px 0 10px 30px;
+            display: flex;
+            justify-content: flex-start;
+            column-gap: 10px;
+            background-image: url('../../assets/images/menu-header.png');
+            background-size: 100% 100%;
+            background-position: 0 0;
+            border-bottom: 1px solid rgba(217, 217, 217, 0.771);
+        }
+            .dien-thoai .title .icon i,
+            .phu-kien .title .icon i {
+                color: black;
+                font-size: 2.6rem;
+            }
+            .dien-thoai .title .text, 
+            .phu-kien .title .text {
+                font-size: 1.9rem;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+
+
+            
+/* Phần css cho danh mục list điện thoại và phụ kiện */
+    .list-phone, .list-phukien {
+        width: 100%;
+    }
+        .list-phone ul, 
+        .list-phukien ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+            .list-phone ul li,
+            .list-phukien ul li {
+                display: block;
+            }
+                .list-phone ul li a,
+                .list-phukien ul li a {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2rem;
+                    padding: 10px 0px 10px 30px;
+                    text-decoration: none;
+                    color: #000;
+                    transition: all .14s ease-in-out;
+                }
+                .list-phone ul li a:hover,
+                .list-phukien ul li a:hover {
+                    padding-left: 45px;
+                    color: red;
+                    background-color: rgb(235, 235, 235);
+                }
+                    .list-phone ul li a:hover span,
+                    .list-phukien ul li a:hover span {
+                        text-decoration: underline;
+                    }
+/* Hiệu ứng danh mục sp: Khi hover vào thẻ a trong các thẻ li thì animation nó sang phải */

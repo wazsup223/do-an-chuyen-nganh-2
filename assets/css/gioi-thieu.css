@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+.content-main {
+    background-color: #fff !important;
+}
+.intro {
+    width: 100%;
+    height: auto;
+    padding: 10px 2% 30px 4%;
+}
+    .intro h1 {
+        font-size: 2.8rem;
+        color: red;
+        padding: 0px 0 10px 0;
+    }
+    .intro p {
+        font-size: 1.7rem;
+        margin: 8px 0 !important;
+    }
+    .intro h3 {
+        font-size: 2.1rem;
+        margin: 10px 0 !important;
+    }
+    .intro .logo {
+        width: 30%;
+        height: auto;
+        border: 1px solid rgb(203, 203, 203);
+        margin-bottom: 20px !important;
+    }
+        .intro .logo img {
+            width: 100%;
+            height: 100%;
+        }
+    .intro iframe {
+        width: 70%;
+        height: 300px;
+    }

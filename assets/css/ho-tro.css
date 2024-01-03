@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+.content-main {
+    background-color: #fff !important;
+}
+.support {
+    width: 100%;
+    height: auto;
+    padding: 10px 2% 30px 4%;
+}
+h1 {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: 600;
+    padding: 20px 0 10px 0;
+}
+h1.first {
+    padding-top: 0;
+}
+p, li {
+    font-size: 1.7rem;
+}

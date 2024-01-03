@@ -1,0 +1,47 @@
+.content-main .account {
+    width: 100%;
+    height: 75px;
+    padding-right: 2.5%;
+    background-color: #011531;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+    .content-main .account .avatar {
+        --size-avatar: 50px;
+        width: var(--size-avatar);
+        height: var(--size-avatar);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+        .content-main .account .avatar a.link-profile {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+            .content-main .account .avatar a.link-profile img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+    .content-main .account .admin-name span {
+        font-size: 1.9rem;
+        color: #fff;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+    .content-main .account .logout {
+        margin-left: 15px !important;
+        border: 1px solid transparent;
+    }
+        .content-main .account .logout a {
+            display: block;
+            padding: 4px 5px;
+        }
+            .content-main .account .logout a i {
+                font-size: 3rem;
+            }
+    .content-main .account .logout:hover {
+        border: 1px solid red;
+    }

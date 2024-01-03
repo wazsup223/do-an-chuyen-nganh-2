@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0 !important;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #313131;
+}
+    .footer__menu{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 5%;
+        font-size: 1.7rem;
+        background-color: #0c1635;
+    }
+        .footer__menu div a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #9f9e9e;
+        }
+        .footer__menu div a:hover {
+            color: #ffffff;
+        }
+    
+    .footer__content {
+        width: 100%;
+        height: auto;
+        padding: 20px 0px 30px 6%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 2%;
+    }
+        .footer__content .logo {
+            width: 120px;
+            height: 100px;
+        }
+            .footer__content .logo a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+                .footer__content .logo a img {
+                    width: 100%;
+                    height: 100%;
+                }
+        
+        .footer__content .info {
+            width: auto;
+            height: auto;
+            color: #fff;
+        }
+            .footer__content .info h3.title {
+                color: inherit;
+            }
+            .footer__content .info .contact {
+                color: inherit;
+                margin-top: 10px !important;
+            }
+                .footer__content .info .contact p {
+                    font-size: 1.5rem;
+                    letter-spacing: 1.5px;
+                }
+    
+    .footer .line {
+        width: 90%;
+        border-top: 1px solid #8d8d8d;
+    }
+
+    .footer_end {
+        width: 100%;
+        height: auto;
+        padding: 10px 0 30px 6%;
+        color: #fff;
+        font-size: 1.8rem;
+        display: flex;
+        column-gap: 1%;
+    }

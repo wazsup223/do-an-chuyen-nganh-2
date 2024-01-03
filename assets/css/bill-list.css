@@ -1,0 +1,51 @@
+div.header-slider-wrap {
+    display: none !important; 
+} 
+.content-wrapper {
+    padding-top: 8px;
+}
+.content-main {
+    padding-bottom: 200px;
+    background-color: #ffffff !important;
+}
+.bill-zone.bill-not-exist {
+    display: none;
+}
+.bill-zone.bill-exist {
+    display: block;
+}
+.bill-zone {
+    width: 100%;
+    height: auto;
+    padding: 0 1% 10px 1%;
+}
+h1 {
+    padding: 10px 2%;
+    font-size: 2.5rem;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+thead {
+    background-color: #000;
+    color: #fff;
+}
+th {
+    padding-right: 0.4% !important;
+    padding-left: 0.4% !important;
+    background-color: #ffff94 !important;
+    color: #000;
+}
+td, th {
+    border: 1px solid rgb(199, 199, 199);
+    vertical-align: middle;
+    font-size: 1.7rem !important;
+    text-align: center;
+    overflow: hidden;
+}
+td.img .wrapper {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto !important;
+}
