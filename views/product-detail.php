@@ -91,9 +91,14 @@
                                 </span>
                             </p>
                         </div>
-                        <p class="soluong">Số lượng: ${data['soluong']}</p>
+                        <p class="soluong">Số lượng: ${data['soluong']}
+                        <div class="edit-soluong">
+                                <button class="giam" onclick="giam(this)">-</button>
+                                <input type="number" name="" id="soluong" value=${item['soluong']} onchange="capNhatSoluong(this)" data-idSP=${item['id_sp']} data-idKH=${item['id_kh']}>
+                                <button class="tang" onclick="tang(this)">+</button>
+                            </div></p>
                         <button type="button" class="btn btn-primary add-cart" data-id=${data['id_sp']} onclick="check(this)">
-                            <a href="javascript:void(0);" >THÊM VÀO GIỎ</a>
+                            <a href="javascript:void(0);" >THÊM VÀO GIỎ HÀNG</a>
                         </button>
                     </div>
                 </div>
@@ -118,6 +123,7 @@
                     </p>
                 </div>    
             `;
+            
 
             document.querySelector('div.content-item.content-main').innerHTML = '<h1>CHI TIẾT SẢN PHẨM</h1>' + info_zone + piroduct_specifcation + product_description;
         }

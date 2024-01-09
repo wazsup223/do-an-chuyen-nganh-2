@@ -48,9 +48,7 @@
                     <p>Email: dh52003592@student.stu.edu.vn</p>
 
                     <h3>Vị trí của chúng tôi</h3>
-                    <iframe src="https://www.google.com/maps?osid=aa08dc0b-b675-4531-9c23-79cd9b13637e&cp=10.738104~106.675701&lvl=17&pi=0&imgid=919d6043-22bf-4b66-b9c9-c6b625cbf690&v=2&sV=2&form=S00027" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9543420446016!2d106.67525717412146!3d10.738002459903175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1704780877519!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
         </div>
         
         <!-- Phần footer -->
